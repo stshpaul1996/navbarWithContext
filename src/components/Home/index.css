@@ -1,0 +1,48 @@
+/* Write your CSS here */
+/* Write your CSS here */
+.about-app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.dark-about-container {
+  background-color: #000000;
+}
+
+.light-about-container {
+  color: #ffffff;
+}
+
+.about-page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.dark-about-image {
+  height: 130px;
+}
+
+.about-heading {
+  color: #000000;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+
+.about-light-heading {
+  color: #ffffff;
+  font-size: 34px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
